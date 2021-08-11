@@ -1,0 +1,3 @@
+
+s= "{\"corresponsalBancario\": {\"FIIDEntidad\": \"0140\",\"idAdquirente\": \"10203040\",\"terminal\": { \"id\": \"ZWC02001\",  \"tipo\": \"WEB\",\"capacidadPIN\": \"Desconocido\"}, \"virtualPAN\": {\"tipo\": \"Ahorros\",\"numero\": \"000000053265\"},\"contacto\": {  \"Telefono\": [\"7777777\"],\"Correo\": [\"api@ejemplo.com\"]}},\"transaccion\": {\"modoCapturaPAN\": \"Banda\",\"idConsecutivoTerminal\": 390,   \"tipo\": \"Recaudo\",\"tarjeta\": {\"tipo\": \"Ahorros\",\"numero\": \"000000053265\",\"fechaExpiracion\": \"06/21\",\"cvc\": \"123\"}}, \"autorizacion\": {\"id\": \"X24225\",\"numeroReferencia\": \"000000053267\"}}"
+print(s)
